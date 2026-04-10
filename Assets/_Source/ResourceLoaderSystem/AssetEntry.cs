@@ -13,6 +13,7 @@ namespace ResourceLoaderSystem
             refCount = 1;
         }
 
+        //don't use any other method to get assets!!!
         public Object GetAsset()
         {
             refCount++;

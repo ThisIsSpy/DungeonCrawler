@@ -3,6 +3,7 @@ using UnityEngine;
 
 namespace ResourceLoaderSystem 
 {
+    //use only this class to load resources!!!
     public static class ResourceLoader
     {
         private static readonly Dictionary<string, AssetEntry> cache = new();
